@@ -25,13 +25,13 @@ async def on_message(message):
     if message.author.bot:
         return None
 
-    if message.content == ("야"):
+    elif message.content == ("야"):
         await client.send_message(message.channel, "왜")
     
-    if message.content.endswith("지?"):
+    elif message.content.endswith("지?"):
         await client.send_message(message.channel, random.choice(["아닌데?","당연하지","잘 몰라"]))
 		
-    if message.content.endswith("까?"):
+    elif message.content.endswith("까?"):
         await client.send_message(message.channel, random.choice(["아닌데?","당연하지","잘 몰라"]))
 
 client.run(token)
