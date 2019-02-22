@@ -7,7 +7,7 @@ import random
 client = discord.Client()
 
 
-token = "NTQxNTU5MDk4NDgzNjcxMDgx.DzhOgQ.TvburVSeoQNgMnWF1lXAdSXe3Rs"
+token = "https://google.com"
 
 
 @client.event
